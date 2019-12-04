@@ -1,7 +1,7 @@
-# Klassifizierung von deutschsprachigen News-Artikel
-Text-Klassifizierung ist eine Standard-Anwendung von ML. Hier zeige ich beispielhaft solch eine Klassifizierung anhand von Nachrichten-Meldung in deutscher Sprache.
+# Classification of German News Articles
+Text classification is a standard application of ML. Here I show an example of such a classification by means of news articles in German language.
 
-Als Datenquelle kommt der "10k German News Articles Dataset (10kGNAD)" zum Einsatz. Entnommen wurde er von Kaggle: https://www.kaggle.com/tblock/10kgnad
+As data source the "10k German News Articles Dataset (10kGNAD)" is used. It was taken from Kaggle: https://www.kaggle.com/tblock/10kgnad
 
-Die vorgefertigte Aufteilung in Trainings- und Testdaten wurde rückgängig gemacht und selbst neu angefertigt.
-Für die Auswertung kam Tensorboard zum Einsatz. Mit diesem Tool kann der Verlauf des Lernprozesses sehr schön visualisiert werden. Dafür muss Tensorboard installiert sein (pip install Tensorboard)
+The prefabricated split into training and test data was reversed and new split was created.
+Tensorboard was used for the evaluation. With this tool the learning process can be visualized very nicely. Tensorboard has to be installed (pip install Tensorboard).
